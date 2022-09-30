@@ -9,7 +9,7 @@ class A
     int a;
     static int b;
     public:
-    void getdata()
+    void getData()
     {
         cout<<"Enter the value of a: ";
         cin>>a;
@@ -28,7 +28,7 @@ int A::b;
 int main()
 {
     A obj;
-    obj.getdata();
+    obj.getData();
     obj.display();
     return 0;
 }
